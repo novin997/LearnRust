@@ -229,6 +229,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "stack"
+version = "0.1.0"
+
+[[package]]
 name = "syn"
 version = "2.0.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -243,6 +247,7 @@ dependencies = [
 name = "tokio"
 version = "0.1.0"
 dependencies = [
+ "stack",
  "tokio 1.29.1",
 ]
 
